@@ -28,3 +28,5 @@ const uploadFile = (fileName) => {
         console.log(`File uploaded successfully. ${data.Location}`);
     });
 };
+
+uploadFile();
